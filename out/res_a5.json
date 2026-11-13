@@ -1,0 +1,245 @@
+{
+ "bh": {
+  "Issue (I)": {
+   "q_pass": 0.0321,
+   "q_disc": 0.2619
+  },
+  "Test-lax": {
+   "q_pass": 0.6466,
+   "q_disc": 0.8932
+  },
+  "Patch (P)": {
+   "q_pass": 0.0004,
+   "q_disc": 0.9087
+  },
+  "P: scope creep": {
+   "q_pass": 0.0004,
+   "q_disc": 0.2619
+  },
+  "P: defective gold": {
+   "q_pass": 0.0321,
+   "q_disc": 0.8934
+  },
+  "P: unneeded change": {
+   "q_pass": 0.2619,
+   "q_disc": 0.6466
+  },
+  "Exactly one axis": {
+   "q_pass": 0.018,
+   "q_disc": 0.9087
+  },
+  "Two or more axes": {
+   "q_pass": 0.2619,
+   "q_disc": 0.2619
+  },
+  "Any defect": {
+   "q_pass": 0.0111,
+   "q_disc": 0.8932
+  }
+ },
+ "cooccur": {
+  "observed": 22,
+  "expected": 13.1,
+  "lo": 7,
+  "hi": 19,
+  "p": 0.00365
+ },
+ "axis_nulls": {
+  "Issue axis": {
+   "random": {
+    "removed": 20,
+    "changed": 0.534,
+    "null_changed": 0.506,
+    "p_changed": 0.277,
+    "tau": 0.9931,
+    "null_tau": 0.9928,
+    "null_tau_lo": 0.9901,
+    "p_tau": 0.564
+   },
+   "matched": {
+    "removed": 20,
+    "changed": 0.534,
+    "null_changed": 0.465,
+    "p_changed": 0.041,
+    "tau": 0.9931,
+    "null_tau": 0.9939,
+    "null_tau_lo": 0.9921,
+    "p_tau": 0.175
+   }
+  },
+  "Test axis": {
+   "random": {
+    "removed": 52,
+    "changed": 0.718,
+    "null_changed": 0.651,
+    "p_changed": 0.028,
+    "tau": 0.9845,
+    "null_tau": 0.9859,
+    "null_tau_lo": 0.9821,
+    "p_tau": 0.195
+   },
+   "matched": {
+    "removed": 52,
+    "changed": 0.718,
+    "null_changed": 0.676,
+    "p_changed": 0.113,
+    "tau": 0.9845,
+    "null_tau": 0.9842,
+    "null_tau_lo": 0.9805,
+    "p_tau": 0.555
+   }
+  },
+  "Patch axis": {
+   "random": {
+    "removed": 81,
+    "changed": 0.695,
+    "null_changed": 0.712,
+    "p_changed": 0.73,
+    "tau": 0.9806,
+    "null_tau": 0.9809,
+    "null_tau_lo": 0.9763,
+    "p_tau": 0.449
+   },
+   "matched": {
+    "removed": 81,
+    "changed": 0.695,
+    "null_changed": 0.724,
+    "p_changed": 0.845,
+    "tau": 0.9806,
+    "null_tau": 0.9784,
+    "null_tau_lo": 0.9735,
+    "p_tau": 0.811
+   }
+  },
+  "PAIChecker misaligned": {
+   "random": {
+    "removed": 68,
+    "changed": 0.672,
+    "null_changed": 0.687,
+    "p_changed": 0.688,
+    "tau": 0.9841,
+    "null_tau": 0.9831,
+    "null_tau_lo": 0.9786,
+    "p_tau": 0.694
+   },
+   "matched": {
+    "removed": 68,
+    "changed": 0.672,
+    "null_changed": 0.683,
+    "p_changed": 0.668,
+    "tau": 0.9841,
+    "null_tau": 0.9827,
+    "null_tau_lo": 0.9791,
+    "p_tau": 0.767
+   }
+  },
+  "Any axis": {
+   "random": {
+    "removed": 131,
+    "changed": 0.77,
+    "null_changed": 0.773,
+    "p_changed": 0.595,
+    "tau": 0.9723,
+    "null_tau": 0.973,
+    "null_tau_lo": 0.9668,
+    "p_tau": 0.391
+   },
+   "matched": {
+    "removed": 131,
+    "changed": 0.77,
+    "null_changed": 0.781,
+    "p_changed": 0.692,
+    "tau": 0.9723,
+    "null_tau": 0.9705,
+    "null_tau_lo": 0.9651,
+    "p_tau": 0.728
+   }
+  }
+ },
+ "power": {
+  "0.0": 0.092,
+  "0.05": 0.983,
+  "0.1": 1.0,
+  "0.15": 1.0,
+  "0.25": 1.0
+ },
+ "reliance": {
+  "n_sig_raw": 6,
+  "expected_by_chance": 8.7,
+  "n_sig_bh": 1,
+  "min_q": 0.0
+ },
+ "kr20": {
+  "full": 0.9939,
+  "clean": 0.9919,
+  "defect": 0.9767,
+  "defect_sb500": null,
+  "top30_full": 0.692,
+  "top30_clean": 0.607,
+  "top30_defect": 0.392,
+  "top30_clean_sb500": 0.677,
+  "top30_defect_sb500": 0.711
+ },
+ "q3": {
+  "mean_defect_pairs": 0.0085,
+  "mean_clean_pairs": 0.0015,
+  "diff": 0.007,
+  "p": 0.022
+ },
+ "recent": {
+  "n_sys": 74,
+  "tau": 0.9497,
+  "null_tau": 0.9584,
+  "p_tau": 0.114,
+  "changed": 0.689,
+  "null_changed": 0.67
+ },
+ "fp_tool": {
+  "OpenHands-CodeAct-2.1": {
+   "n": 265,
+   "same": 0.792,
+   "superset": 0.143,
+   "subset": 0.026,
+   "disjoint": 0.026
+  },
+  "codestory_midwit_clau": {
+   "n": 311,
+   "same": 0.817,
+   "superset": 0.084,
+   "subset": 0.032,
+   "disjoint": 0.051
+  },
+  "learn_by_interact_cla": {
+   "n": 301,
+   "same": 0.801,
+   "superset": 0.093,
+   "subset": 0.037,
+   "disjoint": 0.066
+  }
+ },
+ "multilingual": {
+  "n_inst": 300,
+  "n_sys": 14,
+  "id_coverage": 1.0,
+  "misaligned": 73,
+  "pass_mis": 0.455,
+  "pass_al": 0.721,
+  "cliff": -0.401,
+  "p": 2.090171255766242e-07,
+  "never": 29,
+  "never_mis": 18,
+  "pass_SC": 0.565,
+  "pass_DP": 0.399,
+  "pass_IS": 0.434,
+  "changed": 0.643,
+  "null_changed": 0.525,
+  "p_changed": 0.2624,
+  "tau": 0.859,
+  "null_tau": 0.842,
+  "p_tau": 0.58,
+  "score_shift_pp": 6.48,
+  "cost_share_mis": 0.28,
+  "share_inst": 0.243,
+  "best": 0.727
+ }
+}

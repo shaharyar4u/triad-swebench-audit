@@ -1,0 +1,208 @@
+{
+ "frontier": {
+  "5": {
+   "all_pass": 334,
+   "all_fail": 60,
+   "informative": 106,
+   "defect_share_inf": 0.264,
+   "defect_share_allfail": 0.35,
+   "defect_share_allpass": 0.246,
+   "fisher_inf_or_fail_vs_pass": [
+    1.29,
+    0.23697481557711964
+   ],
+   "I_fail": 7,
+   "P_fail": 16,
+   "T_fail": 2,
+   "Tlax_share_allpass": 0.12,
+   "Tlax_share_rest": 0.066
+  },
+  "10": {
+   "all_pass": 290,
+   "all_fail": 48,
+   "informative": 162,
+   "defect_share_inf": 0.302,
+   "defect_share_allfail": 0.396,
+   "defect_share_allpass": 0.217,
+   "fisher_inf_or_fail_vs_pass": [
+    1.73,
+    0.009845351788164699
+   ],
+   "I_fail": 6,
+   "P_fail": 15,
+   "T_fail": 1,
+   "Tlax_share_allpass": 0.121,
+   "Tlax_share_rest": 0.076
+  },
+  "20": {
+   "all_pass": 255,
+   "all_fail": 35,
+   "informative": 210,
+   "defect_share_inf": 0.286,
+   "defect_share_allfail": 0.4,
+   "defect_share_allpass": 0.224,
+   "fisher_inf_or_fail_vs_pass": [
+    1.5,
+    0.05321089424271011
+   ],
+   "I_fail": 6,
+   "P_fail": 10,
+   "T_fail": 0,
+   "Tlax_share_allpass": 0.129,
+   "Tlax_share_rest": 0.073
+  },
+  "30": {
+   "all_pass": 208,
+   "all_fail": 35,
+   "informative": 257,
+   "defect_share_inf": 0.276,
+   "defect_share_allfail": 0.4,
+   "defect_share_allpass": 0.221,
+   "fisher_inf_or_fail_vs_pass": [
+    1.45,
+    0.09856435113933919
+   ],
+   "I_fail": 6,
+   "P_fail": 10,
+   "T_fail": 0,
+   "Tlax_share_allpass": 0.135,
+   "Tlax_share_rest": 0.079
+  }
+ },
+ "best": {
+  "name": "20251215_livesweagent_claude-opus-4-5",
+  "score": 0.792,
+  "fails": 104,
+  "fails_defect": 30,
+  "fails_I": 10,
+  "fails_P": 23,
+  "fails_Plabel": 16,
+  "fails_PAI": 25
+ },
+ "gap": {
+  "mean_clean": 0.555,
+  "mean_defect": 0.47,
+  "mean_gap": 0.085,
+  "rho_gap_score": [
+   -0.29,
+   0.0
+  ],
+  "shift_pp": {
+   "mean": 2.22,
+   "min": -0.63,
+   "max": 4.95
+  }
+ },
+ "quartile": {
+  "Q1": {
+   "n": 45,
+   "score": 0.267,
+   "clean": 0.291,
+   "I": 0.184,
+   "Plab": 0.125,
+   "Tlax": 0.276,
+   "ratio_I": 0.634,
+   "ratio_P": 0.43
+  },
+  "Q2": {
+   "n": 42,
+   "score": 0.495,
+   "clean": 0.523,
+   "I": 0.332,
+   "Plab": 0.286,
+   "Tlax": 0.576,
+   "ratio_I": 0.636,
+   "ratio_P": 0.547
+  },
+  "Q3": {
+   "n": 43,
+   "score": 0.636,
+   "clean": 0.656,
+   "I": 0.427,
+   "Plab": 0.44,
+   "Tlax": 0.774,
+   "ratio_I": 0.65,
+   "ratio_P": 0.67
+  },
+  "Q4": {
+   "n": 44,
+   "score": 0.738,
+   "clean": 0.755,
+   "I": 0.49,
+   "Plab": 0.574,
+   "Tlax": 0.878,
+   "ratio_I": 0.649,
+   "ratio_P": 0.76
+  }
+ },
+ "bash": {
+  "n": 40,
+  "rho_I_ratio_date": [
+   0.354,
+   0.025
+  ],
+  "rho_P_ratio_date": [
+   0.599,
+   0.0
+  ],
+  "rho_P_ratio_score": [
+   0.677,
+   0.0
+  ],
+  "rho_I_ratio_score": [
+   0.274,
+   0.088
+  ]
+ },
+ "all_ratio": {
+  "rho_P_ratio_score": [
+   0.853,
+   0.0
+  ],
+  "rho_I_ratio_score": [
+   0.03,
+   0.694
+  ]
+ },
+ "rerank": {
+  "n_clean": 369,
+  "changed": 134,
+  "share": 0.77,
+  "max_up": 18,
+  "max_down": -9,
+  "mean_abs": 2.17,
+  "kendall": 0.9723,
+  "top10_changed": 6,
+  "top10_set_overlap": 9,
+  "top30_mean_abs": 2.57,
+  "rest_mean_abs": 2.09,
+  "kendall_top30": 0.806,
+  "paichecker_only": {
+   "changed": 117,
+   "kendall_top30": 0.864
+  },
+  "null": {
+   "kendall_mean": 0.9731,
+   "kendall_p": 0.366,
+   "k30_mean": 0.839,
+   "k30_lo": 0.765,
+   "k30_p": 0.166,
+   "changed_mean": 0.772
+  }
+ },
+ "cost": {
+  "n_runs": 39,
+  "total_usd": 7131.0,
+  "share_defect": 0.329,
+  "share_inst_defect": 0.262,
+  "mean_cost_clean": 0.333,
+  "mean_cost_defect": 0.459,
+  "mean_calls_clean": 40.1,
+  "mean_calls_defect": 49.4,
+  "mean_calls_I": 44.2,
+  "mean_calls_Plab": 53.5,
+  "mean_calls_Tlax": 46.7,
+  "unresolved_cost_share_defect": 0.362,
+  "mw_calls": 2.218224423811846e-08
+ }
+}

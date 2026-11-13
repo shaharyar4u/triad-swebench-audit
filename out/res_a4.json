@@ -1,0 +1,187 @@
+{
+ "pai_replication": {
+  "n_agents": 131,
+  "observed_changed": 0.611,
+  "observed_changed_first": 0.641,
+  "null_mean": 0.606,
+  "null_lo": 0.527,
+  "null_hi": 0.687,
+  "p_ge": 0.4966,
+  "null_first_mean": 0.616,
+  "obs_max": 4,
+  "null_max_mean": 6.49,
+  "p_max": 0.9994,
+  "score_shift_obs": 2.77
+ },
+ "matched_null": {
+  "obs_changed": 0.77,
+  "null_changed": 0.78,
+  "p": 0.665,
+  "obs_tau": 0.9723,
+  "null_tau": 0.9703,
+  "p_tau": 0.7415
+ },
+ "triage": {
+  "PAIChecker misaligned": {
+   "n_pos": 68,
+   "static": {
+    "auc": 0.708,
+    "sd": 0.059,
+    "ap": 0.343
+   },
+   "response": {
+    "auc": 0.673,
+    "sd": 0.074,
+    "ap": 0.279
+   },
+   "human effort label": {
+    "auc": 0.617,
+    "sd": 0.061,
+    "ap": 0.211
+   },
+   "static+response": {
+    "auc": 0.707,
+    "sd": 0.064,
+    "ap": 0.336
+   },
+   "all": {
+    "auc": 0.688,
+    "sd": 0.064,
+    "ap": 0.315
+   },
+   "all_gbm": {
+    "auc": 0.691
+   }
+  },
+  "Issue (I)": {
+   "n_pos": 20,
+   "static": {
+    "auc": 0.75,
+    "sd": 0.086,
+    "ap": 0.208
+   },
+   "response": {
+    "auc": 0.646,
+    "sd": 0.135,
+    "ap": 0.111
+   },
+   "human effort label": {
+    "auc": 0.622,
+    "sd": 0.122,
+    "ap": 0.073
+   },
+   "static+response": {
+    "auc": 0.743,
+    "sd": 0.094,
+    "ap": 0.201
+   },
+   "all": {
+    "auc": 0.727,
+    "sd": 0.098,
+    "ap": 0.186
+   },
+   "all_gbm": {
+    "auc": 0.796
+   }
+  },
+  "Patch label (SC or DP)": {
+   "n_pos": 51,
+   "static": {
+    "auc": 0.666,
+    "sd": 0.072,
+    "ap": 0.27
+   },
+   "response": {
+    "auc": 0.664,
+    "sd": 0.072,
+    "ap": 0.202
+   },
+   "human effort label": {
+    "auc": 0.599,
+    "sd": 0.07,
+    "ap": 0.157
+   },
+   "static+response": {
+    "auc": 0.674,
+    "sd": 0.073,
+    "ap": 0.259
+   },
+   "all": {
+    "auc": 0.648,
+    "sd": 0.074,
+    "ap": 0.242
+   },
+   "all_gbm": {
+    "auc": 0.645
+   }
+  },
+  "UTBoost insufficient tests": {
+   "n_pos": 26,
+   "static": {
+    "auc": 0.454,
+    "sd": 0.107,
+    "ap": 0.088
+   },
+   "response": {
+    "auc": 0.664,
+    "sd": 0.11,
+    "ap": 0.157
+   },
+   "human effort label": {
+    "auc": 0.488,
+    "sd": 0.107,
+    "ap": 0.056
+   },
+   "static+response": {
+    "auc": 0.545,
+    "sd": 0.12,
+    "ap": 0.119
+   },
+   "all": {
+    "auc": 0.526,
+    "sd": 0.116,
+    "ap": 0.107
+   },
+   "all_gbm": {
+    "auc": 0.563
+   }
+  },
+  "Any axis": {
+   "n_pos": 131,
+   "static": {
+    "auc": 0.666,
+    "sd": 0.058,
+    "ap": 0.502
+   },
+   "response": {
+    "auc": 0.58,
+    "sd": 0.056,
+    "ap": 0.327
+   },
+   "human effort label": {
+    "auc": 0.609,
+    "sd": 0.052,
+    "ap": 0.356
+   },
+   "static+response": {
+    "auc": 0.67,
+    "sd": 0.059,
+    "ap": 0.514
+   },
+   "all": {
+    "auc": 0.662,
+    "sd": 0.06,
+    "ap": 0.515
+   },
+   "all_gbm": {
+    "auc": 0.649
+   }
+  }
+ },
+ "budget": {
+  "50": 0.206,
+  "100": 0.324,
+  "150": 0.441,
+  "250": 0.647
+ }
+}
